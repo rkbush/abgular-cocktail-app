@@ -14,13 +14,17 @@ Install (if you don't already have them):
 - From the repo:
 
   - Clone the repo
-
-  ```sh
-  $ yarn install
+  
+    ```sh
+  $ cd cocktail-app
   ```
 
   ```sh
   $ cd react-cocktail-app
+  ```
+
+  ```sh
+  $ yarn install
   ```
 
   ```sh
