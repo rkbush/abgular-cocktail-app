@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#main-container {
+    @apply flex flex-wrap p-5 lg:p-10 lg:w-2/3 mx-auto;
+}
+
+.settings-bar {
+    @apply flex gap-10 justify-between lg:justify-end items-center order-1 lg:order-2 w-full lg:w-1/5;
+}
+
+.menu-bar {
+    @apply flex flex-wrap gap-5 items-center justify-between w-full;
+}
