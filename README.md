@@ -1,9 +1,11 @@
-Create a web app to list cocktails.
 
-The coctail API: https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita
-
-TASK: fork this repo and create a web app that displays a list of nicely formatted results, in english, from the API link above.
-
-BONUS 1: provide the ability to search the api
-
-BONUS 2: allow switching between languages
+# Simple Cocktail Web App
+A simple cocktail web app where you can search for your favorite drinks based from the [Cocktails API](https://www.thecocktaildb.com/).
+## Installation
+```bash
+git clone https://github.com/jrdstiansay/weather-app.git
+cd cocktail-app
+npm install && npm run dev
+```
+## Info
+For the fallback of non existing translation will be english. Thank you.
